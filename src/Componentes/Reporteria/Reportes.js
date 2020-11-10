@@ -124,7 +124,7 @@ llenarGridData()
 
 
 
-	axios.get('http://localhost:1012/alumnos',{
+	axios.get('http://myinfancia.australiaeast.cloudapp.azure.com:1012/alumnos',{
 			headers: {
 				//'Authorization': 'Bearer ' + Cookies("token")
 				//'Authorization' : 'Basic ZWxhc3RpYzpZcDlFaU9PVDZjOWY2V2lqMVlWNUlaMmI='
@@ -207,7 +207,7 @@ llenarGridData2()
 
 
 
-  axios.get('http://localhost:1012/catedraticos',{
+  axios.get('http://myinfancia.australiaeast.cloudapp.azure.com:1012/catedraticos',{
       headers: {
         //'Authorization': 'Bearer ' + Cookies("token")
         //'Authorization' : 'Basic ZWxhc3RpYzpZcDlFaU9PVDZjOWY2V2lqMVlWNUlaMmI='

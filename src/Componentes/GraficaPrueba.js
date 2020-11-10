@@ -52,7 +52,7 @@ this.listar=this.listar.bind(this);
 
 async listar()
 {
-   await axios.get('http://localhost:1012/municipios/1/total')
+   await axios.get('http://myinfancia.australiaeast.cloudapp.azure.com:1012/municipios/1/total')
       .then(res => {
         this.setState({
            datosinitial: res.data,
@@ -101,7 +101,7 @@ psico.push(4);
 
 
 
-await axios.get('http://localhost:1012/municipios/2/total')
+await axios.get('http://myinfancia.australiaeast.cloudapp.azure.com:1012/municipios/2/total')
       .then(res => {
         this.setState({
            datosinitial2: res.data,
@@ -153,7 +153,7 @@ psico2.push(4);
 
 
 
-await axios.get('http://localhost:1012/municipios/3/total')
+await axios.get('http://myinfancia.australiaeast.cloudapp.azure.com:1012/municipios/3/total')
       .then(res => {
         this.setState({
            datosinitial3: res.data,
@@ -204,7 +204,7 @@ psico3.push(4);
 
 
 
-await axios.get('http://localhost:1012/municipios/4/total')
+await axios.get('http://myinfancia.australiaeast.cloudapp.azure.com:1012/municipios/4/total')
       .then(res => {
         this.setState({
            datosinitial4: res.data,
@@ -254,7 +254,7 @@ psico4.push(4);
       });
 
 
-await axios.get('http://localhost:1012/municipios/5/total')
+await axios.get('http://myinfancia.australiaeast.cloudapp.azure.com:1012/municipios/5/total')
       .then(res => {
         this.setState({
            datosinitial5: res.data,
